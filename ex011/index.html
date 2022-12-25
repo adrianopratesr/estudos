@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas </h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e dimunua o tamanho dos eu navegador,</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+    <h1>Aprendendo a reproduzir audio no HTML5</h1>
+    <audio src="Midia/pray.mp3" controls autoplay></audio>
+
+    <h1>Audio 2</h1>
+    <!--Outra maneira para inserir audio-->
+
+    <audio preload="metadata" autoplay controls>
+        <source src="Midia/Boom Bap Flick - Quincas Moreira.mp3" type="audio/mpeg">
+        <p>Infelizmente su navegador não consegue reproduzir áudio. <a href="Midia/Boom Bap Flick - Quincas Moreira.mp3">Clique aqui para baixae</a></p>
+    </audio>
+</body>
+</html>
